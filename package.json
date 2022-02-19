@@ -2,10 +2,10 @@
   "name": "y",
   "version": "1.0.0",
   "description": "",
-  "main": "test.js",
+  "main": "streams/counter/test.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node streams/counter/index.js",
+    "test": "node streams/counter/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/yuriyzhupikov/project_node/issues"
   },
-  "homepage": "https://github.com/yuriyzhupikov/project_node#readme"
+  "homepage": "https://github.com/yuriyzhupikov/project_node#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "on-async-hook": "^1.0.1",
+    "uuid": "^8.3.2"
+  }
 }
