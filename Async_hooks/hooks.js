@@ -4,7 +4,7 @@ const {v4} = require('uuid');
 const store = new Map();
 
 const asyncHook = asyncHooks.createHook({
-    init: ((asyncId,_, triggerAsyncId) => {
+    init: ((asyncId,type, triggerAsyncId) => {
         if (store.has(triggerAsyncId)) {
             store.set(asyncId, store.get(triggerAsyncId));
         }

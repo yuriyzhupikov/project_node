@@ -1,7 +1,6 @@
 const asyncHooks = require('async_hooks');
 const http = require('http');
 const fs = require('fs');
-const Process = require("process");
 
 const hooks = {
     init: init
