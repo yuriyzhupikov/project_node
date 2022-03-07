@@ -23,6 +23,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "on-async-hook": "^1.0.1",
+    "stampit": "^4.3.2",
     "uuid": "^8.3.2"
   }
 }
